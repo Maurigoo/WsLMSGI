@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videojuego SYSTEM "videojuego.dtd">
+<videojuego id="2">
+    <nombre>Apex Legends</nombre>
+    <fecha_creacion>04/02/2019</fecha_creacion>
+    <nota>9</nota>
+
+    <programadores>
+        <programador number="One :)">
+            <nombre_programador>Luis</nombre_programador>
+            <apellidos>Gonzalez</apellidos>
+            <dni>12345678A</dni>
+            <fecha_nacimiento>15/08/1992</fecha_nacimiento>
+            <direccion>
+                <tipo_via>Avenida</tipo_via>
+                <nombre_via>Paseo de la Castellana</nombre_via>
+                <codigo_postal>28046</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+
+        <programador number="Two :)">
+            <nombre_programador>Ana</nombre_programador>
+            <apellidos>Ruiz</apellidos>
+            <dni>98765432B</dni>
+            <fecha_nacimiento>22/05/1988</fecha_nacimiento>
+            <direccion>
+                <tipo_via>Calle</tipo_via>
+                <nombre_via>Velazquez</nombre_via>
+                <codigo_postal>28001</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+    </programadores>
+
+    <compania identificador_unico="Alpha">
+        <nombre_compania>NovaGaming</nombre_compania>
+        <nif>ABC123456</nif>
+        <direccion_compania>
+            <tipo_via>Calle</tipo_via>
+            <nombre_via>Gran Via</nombre_via>
+            <codigo_postal>28013</codigo_postal>
+            <pais>España</pais>
+        </direccion_compania>
+    </compania>
+
+    <pagina_web>
+    <![CDATA[
+    <html>
+     <body>
+        <h1 style="text-align: center;">Bienvenido al Apex Legends</h1>
+        <h2 style="color: blue;text-align: center;" >¡Prepárate para la acción!</h2>
+        <img src=https://th.bing.com/th/id/OIP.PsGWd3xq_p2dD0H4BiK0RgHaEK?rs=1&pid=ImgDetMain/>
+     </body>
+    </html>    
+    ]]>
+    </pagina_web>
+</videojuego>

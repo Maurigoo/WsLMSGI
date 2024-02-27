@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa NIF="123456789" pais="España" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation= "actividad14.xsd">
+    <nombre>Upgrade</nombre>
+    <española>true</española>
+    <capital_social>101500.50</capital_social>
+    <direccion>
+        <tipo_via>Calle</tipo_via>
+        <nombre_via>Orense</nombre_via>
+        <CP>28022</CP>
+        <pais>España</pais>
+    </direccion>
+    <empleados>
+        <empleado DNI="12458514J">
+            <nombre>Juan</nombre>
+            <apellidos>Pérez</apellidos>
+            <extranjero>false</extranjero>
+            <fecha_nacimiento>1990-05-15</fecha_nacimiento>
+            <salario>3000</salario>
+            <direccion>
+                <direccion>C\Orense 62, Madrid</direccion>
+                <pais>España</pais>
+            </direccion>
+            <esta_casado>true</esta_casado>
+            <capital_social moneda="euros">50000</capital_social>
+        </empleado>
+        <empleado DNI="95748563P">
+            <nombre>Maria</nombre>
+            <apellidos>Gomez</apellidos>
+            <extranjero>true</extranjero>
+            <fecha_nacimiento>1985-10-20</fecha_nacimiento>
+            <salario>2500</salario>
+            <direccion>
+                <direccion>Rue Principale</direccion>
+                <pais>Francia</pais>
+            </direccion>
+            <esta_casado>false</esta_casado>
+            <capital_social moneda="dolares">3000</capital_social>
+        </empleado>
+    </empleados>
+    <fecha_creacion>2000-01-01</fecha_creacion>
+</empresa>

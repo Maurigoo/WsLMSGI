@@ -1,0 +1,38 @@
+
+*{
+    outline: 1px solid red
+}
+
+.inline {
+    background-color: coral;
+    text-align: center;
+    display: inline;
+    margin: 10px;
+}
+
+.block {
+    display: block;
+    text-align: center;
+    background-color: aquamarine;
+    margin-top: 20px; 
+}
+
+.inline_block {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color: cadetblue;
+    margin-top: 20px;
+    margin-right: 50px;
+    width: 250px;
+    left: 100px;
+}
+
+.none {
+    display: none;
+}
+
+.boton {
+    display: block;
+    margin-top: 10px;
+}

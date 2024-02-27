@@ -1,0 +1,55 @@
+div{
+    border: 7px double;
+    text-align: center;
+    background-image: url("img/papel.jpeg");
+}
+
+h2{
+    border: 3px dashed;
+    background-color: yellow;
+}
+
+ul{
+    text-align: left;
+    display:inline-block;
+    border-style: dotted;
+    background-color: yellowgreen;
+    font-family: cursive;
+    font-size: 20px;
+    list-style-type: square;
+}
+
+img{
+    width: 180px;
+    height: 100px;
+}
+
+li.one{
+    
+list-style-image: url("img/1988880_car_front_vehicle_icon.png");
+
+}
+
+li.two{
+    list-style-image: url("img/2526579_transportation_vehicle_icon.png");
+}
+
+li.three{
+    list-style-image: url("img/2526573_transportation_vehicle_icon.png");
+}
+
+p{
+    font-size: 25px;
+}
+
+ol.ordenada{
+    text-align: left;
+    border: 7px double;
+    background-color: #F1C40F;
+    list-style-type:upper-alpha;
+    font-family: cursive;
+}
+
+ol{
+    list-style-type: lower-roman;
+}

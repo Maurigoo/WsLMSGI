@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "actividad_02.xsd">
+    <nombre>Biblioteca de España</nombre>
+    <seccion>
+        <libro>
+            <titulo>La sombra del viento</titulo>
+            <autor>Carlos Ruiz Zafón</autor>
+            <resumen>Un misterio literario en la Barcelona de posguerra.</resumen>
+            <editorial>
+                <nombre>Libros Enigmáticos</nombre>
+                <ciudad>Madrid</ciudad>
+            </editorial>
+        </libro>
+        <libro>
+            <titulo>Dune</titulo>
+            <autor>Frank Herbert</autor>
+            <anio>1965</anio>
+            <resumen>La epopeya en el desierto de Arrakis y la lucha por la especia.</resumen>
+            <editorial>
+                <nombre>Ediciones Desierto</nombre>
+                <ciudad>Los Ángeles</ciudad>
+            </editorial>
+        </libro>
+    </seccion>
+    <seccion>
+        <libro>
+            <titulo>Crónica de una muerte anunciada</titulo>
+            <autor>Gabriel García Márquez</autor>
+            <anio>1981</anio>
+            <resumen>La historia de un asesinato anunciado en un pueblo latinoamericano.</resumen>
+            <editorial>
+                <nombre>Ediciones Tragedia</nombre>
+                <ciudad>México DF</ciudad>
+            </editorial>
+        </libro>
+    </seccion>
+    <seccion>
+        <libro>
+            <titulo>Neuromante</titulo>
+            <autor>William Gibson</autor>
+            <resumen>La ciberaventura de un hacker en un mundo dominado por la tecnología.</resumen>
+            <editorial>
+                <codigo>TECH01</codigo>
+                <nombre>Editorial TecnoFicción</nombre>
+                <ciudad>Silicon Valley</ciudad>
+            </editorial>
+        </libro>
+        <libro>
+            <titulo>Orgullo y prejuicio</titulo>
+            <autor>Jane Austen</autor>
+            <resumen>Las complejidades del amor y la sociedad en la Inglaterra del siglo XIX.</resumen>
+            <editorial>
+                <nombre>Ediciones Románticas</nombre>
+                <ciudad>Londres</ciudad>
+            </editorial>
+        </libro>
+    </seccion>
+    <!-- Puedes agregar más secciones y libros según sea necesario -->
+</biblioteca>

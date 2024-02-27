@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display</title>
+    <link rel="stylesheet" href="Display.css" />
+  </head>
+  <body>
+    <div class="inline">Si no puedes dejar de pensar en algo....</div>
+    <div class="inline">no dejes de trabajar en ello.</div>
+
+    <span class="block"> Si te sientes inseguro, ¿sabes qué?</span>
+    <span class="block"> Al resto del mundo le pasa igual.</span>
+
+    <a href="https://www.facebook.com/?locale=es_ES" class="inline_block"
+      >Ir a Facebook</a
+    >
+    <a href="https://www.youtube.com/" class="inline_block">Ir a Youtube</a>
+
+    <p class="none">Este texto esta oculto</p>
+
+    <button class="boton" onclick="alert('Bienvenido a JavaScript')">Pulsa aqui para mostrar un mensaje</button>
+
+    <button class="boton" onclick="toggleEtiqueta()">Mostrar/Ocultar Etiqueta</button>
+
+    <p id="etiquetaOculta" style="display: none">Esta frase se oculta</p>
+
+    <script>
+      // Función para ocultar/mostrar la etiqueta
+      function toggleEtiqueta() {
+        var etiqueta = document.getElementById("etiquetaOculta");
+        etiqueta.style.display =
+          etiqueta.style.display === "none" ? "block" : "none";
+      }
+    </script>
+  </body>
+</html>

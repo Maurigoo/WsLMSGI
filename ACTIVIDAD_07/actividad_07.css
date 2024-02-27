@@ -1,0 +1,41 @@
+body {
+    background-color: #34495E;
+}
+
+header {
+    color: yellow;
+    background-color: black;
+}
+
+.articulo1 {
+    color: white;
+    background-color: #717D7E;
+}
+
+
+.articulo2 {
+    color: blue;
+    background-color: red;
+}
+
+footer {
+    color: white;
+    background-color: darkblue;
+}
+
+#link {
+    color: #FFF400;
+}
+
+#parrafo {
+    color: wheat;
+    background-color: black;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.derecha {
+    text-align: right;
+}

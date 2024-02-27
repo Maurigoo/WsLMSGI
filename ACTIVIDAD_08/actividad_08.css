@@ -1,0 +1,42 @@
+body{
+    background-image: url("img/futbol.gif");
+    background-size: cover;
+    
+}
+
+.articulo1{
+    border-color:#8E44AD ;
+    border-width: 7px ;
+    border-style: dashed;
+}
+
+.articulo2{
+    border-color:#C0392B ;
+    border-width: 7px ;
+    border-style: dashed;
+}
+
+section{
+    color: #922B21;
+}
+
+#parrafo{
+    font-variant: small-caps;/* pequeñas separaciones entre las letras*/
+            font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+            font-size: 30px;
+            color: blue;
+}
+
+img{
+    width: 500px;
+}
+
+#cabecera1{
+    border-width: 10px;
+    border-style: double;
+}
+
+#cabecera2{
+    border-width: 2em;
+    border-style: groove;
+}

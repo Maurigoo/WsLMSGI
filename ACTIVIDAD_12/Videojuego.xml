@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videojuego [
+    <!ELEMENT videojuego (nombre, fecha_creacion, nota, programadores, compania, pagina_web)>
+    <!ATTLIST videojuego id CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT fecha_creacion (#PCDATA)>
+    <!ELEMENT nota (#PCDATA)>
+    
+    <!ELEMENT programadores (programador+)>
+    <!ELEMENT programador (nombre_programador, apellidos, dni, fecha_nacimiento, direccion)>
+    <!ATTLIST programador number CDATA #REQUIRED>
+    <!ELEMENT nombre_programador (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT dni (#PCDATA)>
+    <!ELEMENT fecha_nacimiento (#PCDATA)>
+    
+    <!ELEMENT direccion (tipo_via, nombre_via, codigo_postal, pais)>
+    <!ELEMENT tipo_via (#PCDATA)>
+    <!ELEMENT nombre_via (#PCDATA)>
+    <!ELEMENT codigo_postal (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    
+    <!ELEMENT compania (nombre_compania, nif, direccion_compania)>
+    <!ATTLIST compania identificador_unico CDATA #REQUIRED>
+    <!ELEMENT nombre_compania (#PCDATA)>
+    <!ELEMENT nif (#PCDATA)>
+    <!ELEMENT direccion_compania (tipo_via, nombre_via, codigo_postal, pais)>
+    
+    <!ELEMENT pagina_web (#PCDATA)>
+    
+    
+]>
+
+
+<videojuego id="1">
+    <nombre>Fortnite</nombre>
+    <fecha_creacion>25/06/2017</fecha_creacion>
+    <nota>10</nota>
+
+    <programadores>
+        <programador number="One :)">
+            <nombre_programador>Manolito</nombre_programador>
+            <apellidos>Martinez</apellidos>
+            <dni>54751617Z</dni>
+            <fecha_nacimiento>10/07/2000</fecha_nacimiento>
+            <direccion>
+                <tipo_via>Calle</tipo_via>
+                <nombre_via>Gran Via</nombre_via>
+                <codigo_postal>28023</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+
+        <programador number="Two :)">
+            <nombre_programador>Pepe</nombre_programador>
+            <apellidos>Viyuela</apellidos>
+            <dni>2165485K</dni>
+            <fecha_nacimiento>30/11/1985</fecha_nacimiento>
+            <direccion>
+                <tipo_via>Avenida</tipo_via>
+                <nombre_via>Orense</nombre_via>
+                <codigo_postal>22022</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+    </programadores>
+
+    <compania identificador_unico="Elite">
+        <nombre_compania>GalaxyElite</nombre_compania>
+        <nif>JKQ874564</nif>
+        <direccion_compania>
+            <tipo_via>Calle</tipo_via>
+            <nombre_via>Atocha</nombre_via>
+            <codigo_postal>28024</codigo_postal>
+            <pais>España</pais>
+        </direccion_compania>
+    </compania>
+
+    <pagina_web>
+    <![CDATA[
+    <html>
+     <body>
+        <h1 style="text-align: center;">Bienvenido al Fortnite</h1>
+        <h2 style="color: red;text-align: center;" >FORTNITEEEEEEEEEE</h2>
+        <img src=https://th.bing.com/th/id/OIP.rxpZa6wmjSCJBp2hy8k3-gHaEK?rs=1&pid=ImgDetMain/>
+     </body>
+    </html>    
+    ]]>
+    </pagina_web>
+</videojuego>

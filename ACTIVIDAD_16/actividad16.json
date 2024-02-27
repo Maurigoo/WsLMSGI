@@ -1,0 +1,63 @@
+{
+    "videojuego": {
+        "nombre": "Fornite",
+        "fecha_creacion": "2017-06-25",
+        "nota": 10,
+        "programadores": [
+            {
+                "id": 1,
+                "nombre": "Manolito",
+                "apellidos": "Garcia",
+                "dni": "15468456A",
+                "fecha_nacimiento": "1990-05-25",
+                "direccion": {
+                    "tipo_via": "Calle",
+                    "nombre_via": "Calle de la piruleta",
+                    "codigo_postal": "28080",
+                    "pais": "España"
+                }
+            },
+            {
+                "id": 2,
+                "nombre": "Juan",
+                "apellidos": "Martinez",
+                "dni": "21546845B",
+                "fecha_nacimiento": "1982/05/25",
+                "direccion": {
+                    "tipo_via": "avenida",
+                    "nombre_via": "avenida olimpica",
+                    "codigo_postal": "25480",
+                    "pais": "España"
+                }
+            }
+        ],
+        "compañia": {
+            "id": "EliteGames",
+            "nombre": "Epic Games",
+            "nif": "A1234478",
+            "direccion": {
+                "tipo_via": "Calle",
+                "nombre_via": "Calle Orense",
+                "codigo_postal": "28874",
+                "pais": "España"
+            }
+        },
+        "pagina_web": {
+            "html": {
+                "body": {
+                    "h1": {
+                        "text": "Bienvenido al Fortnite",
+                        "style": "text-align: center;"
+                    },
+                    "h2": {
+                        "text": "FORTNITEEEEEEEEEE",
+                        "style": "color: red;text-align: center;"
+                    },
+                    "img": {
+                        "src": "https://th.bing.com/th/id/OIP.rxpZa6wmjSCJBp2hy8k3-gHaEK?rs=1&pid=ImgDetMain"
+                    }
+                }
+            }
+        }
+    }
+}

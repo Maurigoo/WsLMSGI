@@ -1,0 +1,40 @@
+
+p.tnr{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px blue solid;
+}
+
+h1{
+    color: blue;
+    text-transform: capitalize;
+    border-style: solid;
+    border-color: blue;
+    
+}
+
+#especial{
+    letter-spacing: 3px;
+    word-spacing: 8px;
+    text-indent: 10px;
+    border-left-style: dashed;
+    border-left-color: yellowgreen;
+    border-right-style: double;
+    border-right-color: blueviolet;
+    border-top-style:dotted;
+    border-top-color: red;
+    border-bottom-style:solid;
+    border-bottom-color: yellow;
+}
+
+h3.h3esp{
+    text-align: right;
+    width: 30%;
+}
+
+p.pesp{
+    text-align: justify;
+    width: 500px;
+    background-color: yellow;
+}

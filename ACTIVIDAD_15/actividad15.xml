@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciudad id="AB-12345" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "actividad15.xsd">
+    <nombre>Madrid</nombre>
+    <poblacion>50000</poblacion>
+    <alcalde>
+        <nombre>Javier</nombre>
+        <apellidos>Gomez Perez</apellidos>
+        <edad>45</edad>
+        <telefono>+34661435678</telefono>
+        <tarjeta_credito>1234567890123456</tarjeta_credito>
+        <correo_electronico>javier@gmail.com</correo_electronico>
+    </alcalde>
+    <funcionarios>
+        <funcionario id="1">
+            <nombre_apellidos>Juan Martínez López</nombre_apellidos>
+            <codigo_postal>28001</codigo_postal>
+            <fecha_nacimiento>01/01/1990</fecha_nacimiento>
+            <!-- No valida la contraseña con nada, no se cual es el error :( -->
+            <contrasena>V57!ql8Hm2hPnG</contrasena>
+            <numero_cuenta_bancaria>ES1234 5678 9012 3456</numero_cuenta_bancaria>
+        </funcionario>
+        <funcionario id="2">
+            <nombre_apellidos>Maria González</nombre_apellidos>
+            <codigo_postal>08001</codigo_postal>
+            <fecha_nacimiento>15/06/1985</fecha_nacimiento>
+            <contrasena>V57!ql8Hm2hPnG</contrasena>
+            <numero_cuenta_bancaria>ES9876 5432 1098 7654</numero_cuenta_bancaria>
+        </funcionario>
+    </funcionarios>
+</ciudad>

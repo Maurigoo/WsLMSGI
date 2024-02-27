@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videojuego id="1">
+    <nombre>Fortnite</nombre>
+    <fecha_creacion>25/06/2017</fecha_creacion>
+    <nota>10</nota>
+
+    <programadores>
+        <programador number="One :)">
+            <nombre>Manolito</nombre>
+            <apellidos>Martinez</apellidos>
+            <dni>54751617Z</dni>
+            <fecha_nacimiento>10/07/2000</fecha_nacimiento>
+            <direccion>
+                <tipo_via>Calle</tipo_via>
+                <nombre_via>Gran Via</nombre_via>
+                <codigo_postal>28023</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+
+        <programador number="Two :)">
+            <nombre>Pepe</nombre>
+            <apellidos>Viyuela</apellidos>
+            <dni>2165485K</dni>
+            <fecha_nacimiento>30/11/1985</fecha_nacimiento>
+            <direccion>
+                <tipo_via>Avenida</tipo_via>
+                <nombre_via>Orense</nombre_via>
+                <codigo_postal>22022</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+    </programadores>
+
+    <compania identificador_unico="Elite">
+        <nombre>GalaxyElite</nombre>
+        <nif>JKQ874564</nif>
+        <direccion>
+            <tipo_via>Calle</tipo_via>
+            <nombre_via>Atocha</nombre_via>
+            <codigo_postal>28024</codigo_postal>
+            <pais>España</pais>
+        </direccion>
+    </compania>
+
+    <pagina_web>
+    <![CDATA[
+    <html>
+     <body>
+        <h1 style="text-align: center;">Bienvenido al Fortnite</h1>
+        <h2 style="color: red;text-align: center;" >FORTNITEEEEEEEEEE</h2>
+        <img src=https://th.bing.com/th/id/OIP.rxpZa6wmjSCJBp2hy8k3-gHaEK?rs=1&pid=ImgDetMain/>
+     </body>
+    </html>    
+    ]]>
+    </pagina_web>
+</videojuego>
